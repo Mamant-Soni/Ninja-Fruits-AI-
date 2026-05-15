@@ -1,41 +1,56 @@
-Ninja Fruits AI 🍉⚔️
+# Ninja Fruits AI 🍉⚔️
 
-An AI-powered Fruit Ninja style browser game controlled completely using hand gestures.
+An AI-powered Fruit Ninja style browser game controlled completely using hand gestures using MediaPipe hand tracking and HTML5 Canvas.
 
-Features
-Real-time hand gesture tracking
-AI-powered finger detection
-Smooth slicing effects
-Combo animations
-Particle effects
-Fruit physics
-Bomb system
-Sound effects
-Camera preview
-High-performance gameplay
-Tech Stack
-HTML5
-CSS3
-JavaScript
-MediaPipe Hands
-Canvas API
-Folder Structure
+---
+
+# 🚀 Features
+
+- Real-time hand gesture tracking
+- AI-powered finger detection
+- Smooth fruit slicing effects
+- Real physics-based fruit movement
+- Combo animations and particles
+- Bomb system
+- Camera preview window
+- Sound effects support
+- Real fruit image support
+- Progressive difficulty system
+- High-performance gameplay
+
+---
+
+# 🧠 Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- MediaPipe Hands
+- HTML5 Canvas API
+- Computer Vision
+
+---
+
+# 📁 Folder Structure
+
+```text
 project-folder/
 
-<img width="930" height="621" alt="image" src="https://github.com/user-attachments/assets/8da88c73-be9b-4ee9-921c-4e7c2db8a9f1" />
-
-How To Run
-Open project in VS Code
-Install Live Server extension
-Right click index.html
-Click Open With Live Server
-Future Improvements
-Multiplayer support
-Advanced combo system
-Leaderboard
-Mobile optimization
-More fruit types
-Advanced game modes
-Author
-
-Mamant Soni
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   │
+│   ├── fruits/
+│   │   ├── apple.png
+│   │   ├── banana.png
+│   │   ├── orange.png
+│   │   ├── watermelon.png
+│   │   └── bomb.png
+│   │
+│   └── sounds/
+│       ├── slice.mp3
+│       ├── bomb.mp3
+│       └── combo.mp3
