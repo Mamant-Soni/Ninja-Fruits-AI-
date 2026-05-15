@@ -22,25 +22,8 @@ Canvas API
 Folder Structure
 project-folder/
 
+<img width="930" height="621" alt="image" src="https://github.com/user-attachments/assets/8da88c73-be9b-4ee9-921c-4e7c2db8a9f1" />
 
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── assets/
-│   │
-│   ├── fruits/
-│   │   ├── apple.png
-│   │   ├── banana.png
-│   │   ├── orange.png
-│   │   ├── watermelon.png
-│   │   └── bomb.png
-│   │
-│   └── sounds/
-│       ├── slice.mp3
-│       ├── bomb.mp3
-│       └── combo.mp3
 How To Run
 Open project in VS Code
 Install Live Server extension
