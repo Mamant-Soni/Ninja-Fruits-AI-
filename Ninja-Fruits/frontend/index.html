@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Ninja Fruits</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+<!-- MEDIAPIPE -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+
+</head>
+
+<body>
+
+<!-- CANVAS -->
+<canvas id="canvas"></canvas>
+
+<!-- CAMERA PREVIEW -->
+<video
+id="video"
+autoplay
+playsinline>
+</video>
+
+<!-- UI -->
+<div id="score">
+Score: 0
+</div>
+
+<div id="level">
+Level: 1
+</div>
+
+<div id="hearts">
+❤️❤️❤️
+</div>
+
+<!-- GAME OVER -->
+<div id="game-over">
+
+<h1>GAME OVER</h1>
+
+<button onclick="location.reload()">
+Restart
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
